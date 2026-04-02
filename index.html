@@ -14,8 +14,7 @@
         }
 
         body {
-            /* Degradado de fondo más innovador */
-            background: linear-gradient(to right bottom, #e0f2f7, #c1e1e9); /* Degradado de azul claro a verde azulado */
+            background: linear-gradient(to right bottom, #e0f2f7, #c1e1e9);
             color: #2c3e50;
             line-height: 1.7;
             padding: 15px;
@@ -25,15 +24,14 @@
         .container {
             max-width: 950px;
             margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semitransparente */
-            border-radius: 20px; /* Bordes más redondeados */
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
-            padding: 40px; /* Más padding */
-            margin-top: 30px; /* Más margen superior */
-            animation: fadeIn 1s ease-in-out; /* Animación de entrada */
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-top: 30px;
+            animation: fadeIn 1s ease-in-out;
         }
 
-        /* Animación para el contenedor */
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -44,11 +42,11 @@
             text-align: center;
             margin-bottom: 45px;
             padding-bottom: 30px;
-            border-bottom: 3px solid #3498db; /* Un color de borde más azul */
-            position: relative; /* Para el detalle innovador */
+            border-bottom: 3px solid #3498db;
+            position: relative;
         }
 
-        .header::after { /* Detalle innovador: línea ondulada debajo del encabezado */
+        .header::after {
             content: '';
             position: absolute;
             left: 50%;
@@ -56,21 +54,21 @@
             transform: translateX(-50%);
             width: 80px;
             height: 6px;
-            background-color: #2ecc71; /* Color verde brillante */
+            background-color: #2ecc71;
             border-radius: 3px;
             box-shadow: 0 0 10px rgba(46, 204, 113, 0.7);
         }
 
         .header h1 {
-            color: #2980b9; /* Azul más vibrante */
-            font-size: 2.5rem; /* Más grande */
+            color: #2980b9;
+            font-size: 2.5rem;
             margin-bottom: 15px;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
         .header .instituto {
             color: #34495e;
-            font-size: 1.3rem; /* Más grande */
+            font-size: 1.3rem;
             font-weight: 600;
             margin-bottom: 8px;
         }
@@ -82,17 +80,16 @@
 
         /* Secciones generales */
         .section-title {
-            color: #3498db; /* Azul para títulos de sección */
-            font-size: 2rem; /* Más grande */
+            color: #3498db;
+            font-size: 2rem;
             margin-bottom: 28px;
             display: flex;
             align-items: center;
-            border-bottom: 2px solid rgba(52, 152, 219, 0.3); /* Línea suave bajo el título */
+            border-bottom: 2px solid rgba(52, 152, 219, 0.3);
             padding-bottom: 10px;
-            animation: slideInLeft 0.8s ease-out; /* Animación para títulos */
+            animation: slideInLeft 0.8s ease-out;
         }
 
-        /* Animación para títulos de sección */
         @keyframes slideInLeft {
             from { opacity: 0; transform: translateX(-20px); }
             to { opacity: 1; transform: translateX(0); }
@@ -101,7 +98,7 @@
         .section-title i {
             margin-right: 12px;
             font-size: 1.7rem;
-            color: #2ecc71; /* Iconos verdes */
+            color: #2ecc71;
         }
 
         .section-content {
@@ -112,23 +109,23 @@
         /* Elementos de cada apartado */
         .item {
             margin-bottom: 28px;
-            padding: 25px; /* Más padding */
-            border-left: 5px solid #2ecc71; /* Borde verde brillante */
-            border-radius: 12px; /* Más redondeado */
+            padding: 25px;
+            border-left: 5px solid #2ecc71;
+            border-radius: 12px;
             background-color: #f8fdfa;
-            transition: all 0.4s ease; /* Transición más suave */
+            transition: all 0.4s ease;
             position: relative;
-            overflow: hidden; /* Para el efecto hover */
+            overflow: hidden;
         }
 
-        .item::before { /* Efecto sutil en hover */
+        .item::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(46, 204, 113, 0.05); /* Verde claro transparente */
+            background: rgba(46, 204, 113, 0.05);
             z-index: 0;
             opacity: 0;
             transition: opacity 0.3s ease;
@@ -139,20 +136,20 @@
         }
 
         .item:hover {
-            transform: translateY(-5px); /* Efecto de "levantar" */
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra más grande al pasar el mouse */
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         }
 
         .item h3 {
             color: #2c3e50;
-            font-size: 1.5rem; /* Más grande */
+            font-size: 1.5rem;
             margin-bottom: 15px;
             position: relative;
             z-index: 1;
         }
 
         .item h4 {
-            color: #3498db; /* Azul para subtítulos */
+            color: #3498db;
             font-size: 1.2rem;
             margin-top: 18px;
             margin-bottom: 10px;
@@ -181,7 +178,7 @@
         .video-link {
             display: inline-flex;
             align-items: center;
-            color: #e74c3c; /* Rojo más llamativo para el icono de YouTube/video */
+            color: #e74c3c;
             text-decoration: none;
             font-weight: 600;
             margin-top: 10px;
@@ -192,17 +189,17 @@
 
         .video-link i {
             margin-right: 10px;
-            font-size: 1.2em; /* Icono un poco más grande */
-            color: #e74c3c; /* Asegura el color rojo */
+            font-size: 1.2em;
+            color: #e74c3c;
         }
 
         .video-link:hover {
-            color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+            color: #c0392b;
             transform: translateX(3px);
             text-decoration: underline;
         }
 
-        /* Contenedor de video (para el futuro uso de iframes, si aplica) */
+        /* Placeholder para videos futuros */
         .video-placeholder {
             background-color: #f0f0f0;
             border: 1px dashed #ccc;
@@ -217,20 +214,28 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            transition: all 0.3s ease;
         }
+
         .video-placeholder i {
             font-size: 2.5em;
             margin-bottom: 10px;
             color: #bbb;
         }
 
+        .video-placeholder:hover {
+            background-color: #e8e8e8;
+            border-color: #999;
+            color: #666;
+            cursor: pointer;
+        }
 
         /* Pie de página */
         .footer {
             text-align: center;
             margin-top: 40px;
             padding-top: 30px;
-            border-top: 1px solid rgba(209, 216, 224, 0.5); /* Borde más suave */
+            border-top: 1px solid rgba(209, 216, 224, 0.5);
             color: #7f8c8d;
             font-size: 1.05rem;
             font-weight: 500;
@@ -238,60 +243,22 @@
 
         /* Adaptación a móviles */
         @media (max-width: 768px) {
-            .container {
-                padding: 25px;
-                margin-top: 20px;
-                border-radius: 15px;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .header .instituto {
-                font-size: 1.1rem;
-            }
-
-            .section-title {
-                font-size: 1.6rem;
-                margin-bottom: 20px;
-            }
-
-            .section-title i {
-                font-size: 1.4rem;
-            }
-
-            .item {
-                padding: 20px;
-                margin-bottom: 20px;
-            }
-
-            .item h3 {
-                font-size: 1.3rem;
-            }
-
-            .item h4 {
-                font-size: 1.1rem;
-            }
-
-            .item p, .item ul {
-                font-size: 0.95rem;
-            }
+            .container { padding: 25px; margin-top: 20px; border-radius: 15px; }
+            .header h1 { font-size: 2rem; }
+            .section-title { font-size: 1.6rem; }
+            .item { padding: 20px; }
         }
     </style>
-    <!-- Iconos básicos de Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <!-- Encabezado personalizado -->
         <div class="header">
             <h1>Jordi Sebastián Salazar</h1>
             <p class="instituto">Instituto Tecnológico Superior ITECSUR</p>
             <p class="materia">Deberes de Desarrollo y Programación de Software</p>
         </div>
 
-        <!-- Sección: Deberes -->
         <div class="section-content">
             <h2 class="section-title">
                 <i class="fas fa-book-open"></i> Deberes
@@ -301,63 +268,58 @@
                 <h3>Deber 1 — Sentencia if (10 ejercicios)</h3>
                 <ul>
                     <li>Pide un número al usuario y muestra si es mayor que 50.</li>
-                    <li>Pide la edad de una persona y determina si puede votar (18 años o más).</li>
+                    <li>Pide la edad de una persona y determina si puede votar.</li>
                     <li>Pide un número y verifica si es múltiplo de 3.</li>
                     <li>Pide una contraseña y comprueba si es igual a <code>python123</code>.</li>
-                    <li>Pide una nota del 0 al 10 y muestra si el estudiante está aprobado (≥ 7) o reprobado.</li>
-                    <li>Pide dos números y muestra cuál de los dos es mayor.</li>
+                    <li>Pide una nota y muestra si está aprobado (≥ 7) o reprobado.</li>
+                    <li>Pide dos números y muestra cuál es mayor.</li>
                     <li>Pide un número y determina si es positivo, negativo o cero.</li>
                     <li>Pide una letra e indica si es una vocal.</li>
                     <li>Pide una temperatura y muestra si hace frío (menos de 15 °C).</li>
-                    <li>Pide un año e indica si es bisiesto usando únicamente condiciones.</li>
+                    <li>Pide un año e indica si es bisiesto.</li>
                 </ul>
                 <p><strong>Video con soluciones:</strong> <a href="https://drive.google.com/file/d/10KxLLXt2RT-FqeYts2tuWuqzEC2MNScA/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver ejercicios resueltos</a></p>
             </div>
 
             <div class="item">
                 <h3>Deber 2 — Bucles (10 ejercicios)</h3>
-                <p>Aplica estructuras de repetición (for / while) para resolver los siguientes problemas.</p>
                 <ul>
                     <li>Imprime los números del 1 al 10.</li>
                     <li>Imprime los números pares del 1 al 20.</li>
-                    <li>Muestra la tabla de multiplicar del número que ingrese el usuario.</li>
+                    <li>Muestra la tabla de multiplicar de un número ingresado.</li>
                     <li>Imprime los números del 10 al 1 en orden descendente.</li>
-                    <li>Pide un número y calcula la suma acumulada desde 1 hasta ese valor.</li>
-                    <li>Cuenta cuántas vocales hay en una palabra ingresada por el usuario.</li>
-                    <li>Solicita una contraseña repetidamente hasta que el usuario la ingrese de forma correcta.</li>
-                    <li>Muestra los números del 1 al 50 que sean múltiplos de 5.</li>
-                    <li>Pide 5 números al usuario e indica cuál es el mayor.</li>
-                    <li>Imprime un triángulo de asteriscos de 5 filas (<br>*<br>**<br>***<br>****<br>*****).</li>
+                    <li>Calcula la suma acumulada desde 1 hasta un valor dado.</li>
+                    <li>Cuenta cuántas vocales hay en una palabra.</li>
+                    <li>Solicita contraseña repetidamente hasta que sea correcta.</li>
+                    <li>Muestra múltiplos de 5 del 1 al 50.</li>
+                    <li>Pide 5 números e indica cuál es el mayor.</li>
+                    <li>Imprime un triángulo de asteriscos de 5 filas.</li>
                 </ul>
                 <p><strong>Video con soluciones:</strong> <a href="https://drive.google.com/file/d/1MOOrgomATDu6mDAzcn6rDdnj-zZhHE0K/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver ejercicios resueltos</a></p>
             </div>
 
             <div class="item">
                 <h3>Deber 3 — Funciones (10 ejercicios)</h3>
-                <p>Crea funciones en Python que resuelvan cada uno de los siguientes problemas.</p>
                 <ul>
-                    <li>Crea una función que muestre un mensaje de bienvenida personalizado.</li>
-                    <li>Crea una función que reciba un número y determine si es par o impar.</li>
-                    <li>Crea una función que reciba dos números y retorne su suma.</li>
-                    <li>Crea una función que reciba una palabra y retorne su longitud.</li>
-                    <li>Crea una función que reciba un número y retorne su cuadrado.</li>
-                    <li>Crea una función que reciba tres números y retorne el mayor de ellos.</li>
-                    <li>Crea una función que convierta una temperatura de Celsius a Fahrenheit.</li>
-                    <li>Crea una función que reciba una lista de números y retorne la suma total.</li>
-                    <li>Crea una función que retorne <code>True</code> si un número es positivo, o <code>False</code> si no lo es.</li>
-                    <li>Crea una función que reciba una palabra y retorne la cadena invertida.</li>
+                    <li>Mensaje de bienvenida personalizado.</li>
+                    <li>Determinar si un número es par o impar.</li>
+                    <li>Retornar la suma de dos números.</li>
+                    <li>Retornar la longitud de una palabra.</li>
+                    <li>Calcular el cuadrado de un número.</li>
+                    <li>Retornar el mayor de tres números.</li>
+                    <li>Convertir Celsius a Fahrenheit.</li>
+                    <li>Suma total de una lista de números.</li>
+                    <li>Retornar True/False según si es positivo.</li>
+                    <li>Retornar una cadena invertida.</li>
                 </ul>
                 <p><strong>Video con soluciones:</strong> <a href="https://drive.google.com/file/d/1RhECMNggN-XJFD4CizpiYBP2LxBrlMw8/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver ejercicios resueltos</a></p>
             </div>
         </div>
 
-        <!-- Sección: Lecciones -->
         <div class="section-content">
             <h2 class="section-title">
                 <i class="fas fa-play-circle"></i> Lecciones
             </h2>
-            <p><strong>2 actividades</strong></p>
-
             <div class="item">
                 <h3>Lección 1 — Participación en Clase</h3>
                 <p><strong>Video de la sesión (Parte 1):</strong> <a href="https://drive.google.com/file/d/1Lpp6IIBGYwy7b42keUaZnujkuI9QKUiu/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver grabación de la clase (Parte 1)</a></p>
@@ -366,44 +328,35 @@
 
             <div class="item">
                 <h3>Lección 2 — Calculadora de IMC con Tkinter</h3>
-                <p><strong>Descripción
-                       <div class="item">
-                <h3>Lección 2 — Calculadora de IMC con Tkinter</h3>
-                <p><strong>Descripción:</strong> Desarrolla una aplicación de escritorio en Python que calcule el Índice de Masa Corporal (IMC) de una persona, utilizando la librería <code>tkinter</code> para la interfaz gráfica.</p>
-                <p><strong>Video explicativo:</strong> <a href="https://drive.google.com/file/d/1iKQ2lP0fGrJyklcQnudjNloRbLB3rAP7/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver desarrollo de la aplicación</a></p>
-                <p><strong>Video de demostración:</strong> <a href="https://drive.google.com/file/d/1OyUqlVpeRJnPQ6BhEkSrQlLdWSuRkGNy/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver funcionamiento final</a></p>
+                <p><strong>Descripción:</strong> Aplicación de escritorio con interfaz gráfica para calcular el IMC.</p>
+                <p><strong>Video explicativo:</strong> <a href="https://drive.google.com/file/d/1iKQ2lP0fGrJyklcQnudjNloRbLB3rAP7/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver desarrollo</a></p>
+                <p><strong>Video de demostración:</strong> <a href="https://drive.google.com/file/d/1OyUqlVpeRJnPQ6BhEkSrQlLdWSuRkGNy/view?usp=drivesdk" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver funcionamiento</a></p>
             </div>
         </div>
 
-        <!-- Nuevo apartado: Examen Teórico Práctico -->
         <div class="section-content">
             <h2 class="section-title">
                 <i class="fas fa-pencil-alt"></i> Examen Teórico Práctico
             </h2>
-            <p><strong>Aquí encontrarás los videos y recursos para el examen teórico-práctico.</strong></p>
-
             <div class="item">
                 <h3>Video del Examen (Parte 1)</h3>
-                <p><strong>Descripción:</strong> Primer video correspondiente a la parte teórica o práctica del examen. Aquí se detallarán los puntos clave.</p>
+                <p><strong>Descripción:</strong> Primer video correspondiente a la parte teórica o práctica del examen.</p>
                 <div class="video-placeholder">
                     <i class="fas fa-play"></i>
-                    <p>Enlace del video parte 1 aquí (se puede modificar)</p>
-                    <!-- <a href="TU_ENLACE_VIDEO_EXAMEN_1" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver Examen Teórico Práctico (Parte 1)</a> -->
+                    <p>Enlace del video parte 1 aquí</p>
                 </div>
             </div>
 
             <div class="item">
                 <h3>Video del Examen (Parte 2)</h3>
-                <p><strong>Descripción:</strong> Segundo video, complementario al primero, para abordar aspectos adicionales del examen.</p>
+                <p><strong>Descripción:</strong> Segundo video complementario para aspectos adicionales.</p>
                 <div class="video-placeholder">
                     <i class="fas fa-play"></i>
-                    <p>Enlace del video parte 2 aquí (se puede modificar)</p>
-                    <!-- <a href="TU_ENLACE_VIDEO_EXAMEN_2" target="_blank" class="video-link"><i class="fas fa-video"></i> Ver Examen Teórico Práctico (Parte 2)</a> -->
+                    <p>Enlace del video parte 2 aquí</p>
                 </div>
             </div>
         </div>
 
-        <!-- Pie de página -->
         <div class="footer">
             <p>Elaborado por Jordi Sebastián Salazar | ITECSUR - 2026</p>
         </div>
