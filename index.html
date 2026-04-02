@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Deberes - Jordi Sebastián Salazar</title>
+    <style>
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #2c3e50;
+            line-height: 1.7;
+            padding: 15px;
+        }
+
+        /* Contenedor principal */
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+            padding: 35px;
+            margin-top: 25px;
+        }
+
+        /* Encabezado */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 25px;
+            border-bottom: 3px solid #27ae60;
+        }
+
+        .header h1 {
+            color: #2ecc71;
+            font-size: 2.3rem;
+            margin-bottom: 12px;
+        }
+
+        .header .instituto {
+            color: #34495e;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .header .materia {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        /* Secciones generales */
+        .section-title {
+            color: #27ae60;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title i {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .section-content {
+            margin-bottom: 45px;
+            padding-left: 10px;
+        }
+
+        /* Elementos de cada apartado */
+        .item {
+            margin-bottom: 25px;
+            padding: 22px;
+            border-left: 4px solid #27ae60;
+            border-radius: 10px;
+            background-color: #f8fdfa;
+            transition: all 0.3s ease;
+        }
+
+        .item:hover {
+            transform: translateX(6px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+        .item h3 {
+            color: #2c3e50;
+            font-size: 1.4rem;
+            margin-bottom: 12px;
+        }
+
+        .item h4 {
+            color: #2980b9;
+            font-size: 1.1rem;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .item p, .item ul {
+            font-size: 1rem;
+            color: #576574;
+            margin-left: 10px;
+        }
+
+        .item ul {
+            list-style-type: decimal;
+            padding-left: 25px;
+        }
+
+        .item ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Estilo para enlaces de videos */
+        .video-link {
+            display: inline-flex;
+            align-items: center;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 8px;
+            transition: color 0.2s ease;
+        }
+
+        .video-link i {
+            margin-right: 8px;
+            color: #e74c3c;
+        }
+
+        .video-link:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid #d1d8e0;
+            color: #7f8c8d;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Adaptación a móviles */
+        @media (max-width: 650px) {
+            .container {
+                padding: 20px;
+                margin-top: 15px;
+            }
+
+            .header h1 {
+                font-size: 1.9rem;
+            }
+
+            .section-title {
+                font-size: 1.5rem;
+            }
+
+            .item h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+    <!-- Iconos básicos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado personalizado -->
+        <div class="header">
+            <h1>Jordi Sebastián Salazar</h1>
+            <p class="instituto">Instituto Tecnológico Superior ITECSUR</p>
+            <p class="materia">Deberes de Desarrollo y Programación de Software</p>
+        </div>
+
+        <!-- Sección: Deberes -->
+        <div class="section-content">
+            <h2 class="section-title">
+                <i class="fas fa-book-open"></i> Deberes
+            </h2>
+
+            <div class="item">
+                <h3>Deber 1 — Sentencia if (10 ejercicios)</h3>
+                <ul>
+                    <li>Pide un número al usuario y muestra si es mayor que 50.</li>
+                    <li>Pide la edad de una persona y determina si puede votar (18 años o más).</li>
+                    <li>Pide un número y verifica si es múltiplo de 3.</li>
+                    <li>Pide una contraseña y comprueba si es igual a <code>python123</code>.</li>
+                    <li>Pide una nota del 0 al 10 y muestra si el estudiante está aprobado (≥ 7) o reprobado.</li>
+                    <li>Pide dos números y muestra cuál de los dos es mayor.</li>
+                    <li>Pide un número y determina si es positivo, negativo o cero.</li>
+                    <li>Pide una letra e indica si es una vocal.</li>
+                    <li>Pide una temperatura y muestra si hace frío (menos de 15 °C).</li>
+                    <li>Pide un año e indica si es bisiesto usando únicamente condiciones.</li>
+                </ul>
+                <p><strong>Video con soluciones:</strong> <a href="https://drive.google.com/file/d/10KxLLXt2RT-FqeYts2tuWuqzEC2MNScA/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver ejercicios resueltos</a></p>
+            </div>
+
+            <div class="item">
+                <h3>Deber 2 — Bucles (10 ejercicios)</h3>
+                <p>Aplica estructuras de repetición (for / while) para resolver los siguientes problemas.</p>
+                <ul>
+                    <li>Imprime los números del 1 al 10.</li>
+                    <li>Imprime los números pares del 1 al 20.</li>
+                    <li>Muestra la tabla de multiplicar del número que ingrese el usuario.</li>
+                    <li>Imprime los números del 10 al 1 en orden descendente.</li>
+                    <li>Pide un número y calcula la suma acumulada desde 1 hasta ese valor.</li>
+                    <li>Cuenta cuántas vocales hay en una palabra ingresada por el usuario.</li>
+                    <li>Solicita una contraseña repetidamente hasta que el usuario la ingrese de forma correcta.</li>
+                    <li>Muestra los números del 1 al 50 que sean múltiplos de 5.</li>
+                    <li>Pide 5 números al usuario e indica cuál es el mayor.</li>
+                    <li>Imprime un triángulo de asteriscos de 5 filas (<br>*<br>**<br>***<br>****<br>*****).</li>
+                </ul>
+                <p><strong>Video con soluciones:</strong> <a href="https://drive.google.com/file/d/1MOOrgomATDu6mDAzcn6rDdnj-zZhHE0K/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver ejercicios resueltos</a></p>
+            </div>
+
+            <div class="item">
+                <h3>Deber 3 — Funciones (10 ejercicios)</h3>
+                <p>Crea funciones en Python que resuelvan cada uno de los siguientes problemas.</p>
+                <ul>
+                    <li>Crea una función que muestre un mensaje de bienvenida personalizado.</li>
+                    <li>Crea una función que reciba un número y determine si es par o impar.</li>
+                    <li>Crea una función que reciba dos números y retorne su suma.</li>
+                    <li>Crea una función que reciba una palabra y retorne su longitud.</li>
+                    <li>Crea una función que reciba un número y retorne su cuadrado.</li>
+                    <li>Crea una función que reciba tres números y retorne el mayor de ellos.</li>
+                    <li>Crea una función que convierta una temperatura de Celsius a Fahrenheit.</li>
+                    <li>Crea una función que reciba una lista de números y retorne la suma total.</li>
+                    <li>Crea una función que retorne <code>True</code> si un número es positivo, o <code>False</code> si no lo es.</li>
+                    <li>Crea una función que reciba una palabra y retorne la cadena invertida.</li>
+                </ul>
+                <p><strong>Video con soluciones:</strong> <a href="TU_LINK_VIDEO_DEBER3" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver ejercicios resueltos</a></p>
+            </div>
+        </div>
+
+        <!-- Sección: Lecciones -->
+        <div class="section-content">
+            <h2 class="section-title">
+                <i class="fas fa-play-circle"></i> Lecciones
+            </h2>
+            <p><strong>2 actividades</strong></p>
+
+            <div class="item">
+                <h3>Lección 1 — Participación en Clase</h3>
+                <p><strong>Video de la sesión (Parte 1):</strong> <a href="https://drive.google.com/file/d/1Lpp6IIBGYwy7b42keUaZnujkuI9QKUiu/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver grabación de la clase (Parte 1)</a></p>
+                <p><strong>Video de la sesión (Parte 2):</strong> <a href="https://drive.google.com/file/d/1n1klZGKhm3Ht-MDT_rri7yj2DLuRATPp/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver grabación de la clase (Parte 2)</a></p>
+            </div>
+
+            <div class="item">
+                <h3>Lección 2 — Calculadora de IMC con Tkinter</h3>
+                <p><strong>Descripción:</strong> Desarrolla una aplicación de escritorio en Python que calcule el Índice de Masa Corporal (IMC) de una persona, utilizando la librería <code>tkinter</code> para la interfaz gráfica.</p>
+                <p><strong>Video explicativo:</strong> <a href="https://drive.google.com/file/d/1iKQ2lP0fGrJyklcQnudjNloRbLB3rAP7/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver desarrollo de la aplicación</a></p>
+                <p><strong>Video de demostración:</strong> <a href="https://drive.google.com/file/d/1OyUqlVpeRJnPQ6BhEkSrQlLdWSuRkGNy/view?usp=drivesdk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver funcionamiento final</a></p>
+            </div>
+        </div>
+
+        <!-- Pie de página -->
+        <div class="footer">
+            <p>Elaborado por Jordi Sebastián Salazar | ITECSUR - 2026</p>
+        </div>
+    </div>
+</body>
+</html>
+
